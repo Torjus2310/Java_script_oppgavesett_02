@@ -1,12 +1,44 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
+
 
 #gronnboks {
     position:absolute;
     background-color: green;
-    height:20px;
-    width:20px;
+    height:100px;
+    width:100px;
     transition:1s;
+    opacity: 50%;
+    z-index: 1;
+}
+
+* {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    
+}
+
+body {
+    background-color: rgb(196, 160, 42);
+display:grid;
+gap:1rem;
+justify-content: center;
+
+}
+
+input {
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+h2 {
+    font-size:2rem;
+    margin-bottom:1rem;
 }

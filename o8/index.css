@@ -1,23 +1,39 @@
-html, body {
-    margin: 0;
-    padding: 0;
+* {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    
 }
 
+body {
+    background-color: rgb(196, 160, 42);
+display:grid;
+gap:1rem;
+justify-content: center;
+margin-top:5rem;
 
+}
+
+.ok {
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
 #tekst {
-    position: absolute;
 
-    top:400px;
-    left:600px;
-
+    margin-top:10rem;
     font-size: 72px;
 }
- .yeet {
-     padding-top:5rem;
-     padding-left:2rem;
- }
 
- p {
-     padding-top:5rem;
- }
+h2 {
+
+    font-size: 2rem;
+    margin-bottom:1rem;
+}

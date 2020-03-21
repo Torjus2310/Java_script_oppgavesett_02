@@ -1,15 +1,42 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
+
 
 div {
     
-    height:50px;
-    width:50px;
+    height:100px;
+    width:100px;
     background-color: blue;    
     position: absolute;
     transition: 1s;
-    left: 200px;
-    top: 150px;
+    opacity: 50%;
+    
+}
+
+* {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+body {
+    background-color: rgb(196, 160, 42);
+display:grid;
+gap:1rem;
+justify-content: center;
+
+}
+
+input {
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 50px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+h2 {
+    margin-top:50px;
 }

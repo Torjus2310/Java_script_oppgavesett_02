@@ -15,17 +15,10 @@ inpFornavn.onchange = LeggTilNavn1;
 function LeggTilNavn() {
 
     NavnListe2.innerHTML += `${inpEtternavn.value}`;
+    Sammen.innerHTML += `${inpFornavn.value}  ${inpEtternavn.value}`;
 }
 
 inpEtternavn.onchange = LeggTilNavn;
 
 
-function LeggSammen() {
-
-    Sammen.innerHTML += `${inpFornavn.value} + ${inpEtternavn.value}`;
-     
-    
-}
-
-Sammen.onchange = Leggsammen;
 
