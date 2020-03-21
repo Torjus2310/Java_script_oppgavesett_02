@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    
+    height:50px;
+    width:50px;
+    background-color: blue;    
+    position: absolute;
+    transition: 1s;
+    left: 200px;
+    top: 150px;
+}
